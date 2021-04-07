@@ -19,3 +19,8 @@ python -m pip install kivy[base] kivy_examples --no-binary kivy
 Чтобы установить последнюю передовую версию Kivy от мастера , выполните следующие действия:
 
 python -m pip install "kivy[base] @ https://github.com/kivy/kivy/archive/master.zip"
+Установка с помощью Conda ¶
+Если вы используете Anaconda , вы можете установить Kivy с его менеджером пакетов Conda, используя:
+
+conda install kivy -c conda-forge
+Не используйте pip для установки kivy, если вы используете Anaconda, если вы не устанавливаете из исходников.
