@@ -13,3 +13,9 @@ kivi report &amp; telegram chat-bot
 
 python -m pip install kivy[base] kivy_examples
 Это также устанавливает минимальные зависимости Kivy. Чтобы дополнительно установить Kivy с поддержкой аудио / видео , установите либо kivy[base,media]или kivy[full].
+Чтобы установить стабильную версию Kivy, в терминале выполните:
+
+python -m pip install kivy[base] kivy_examples --no-binary kivy
+Чтобы установить последнюю передовую версию Kivy от мастера , выполните следующие действия:
+
+python -m pip install "kivy[base] @ https://github.com/kivy/kivy/archive/master.zip"
